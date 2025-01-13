@@ -1,4 +1,4 @@
-nav {
+/* nav {
     background-color: darkblue;
     padding: 10px;
 }
@@ -19,6 +19,33 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+} */
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px dotted rgba(0, 0, 0, 0);
+    padding: 2px;
+    box-shadow: 0 0 100px rgb(0, 0, 0);
 }
 
 p {
