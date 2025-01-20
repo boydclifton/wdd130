@@ -3,6 +3,11 @@
     --nav-a-color: white;
     --text-align: center;
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
 }
 
@@ -18,9 +23,11 @@ nav a {
 }
 
 h1 {
-    color: var(--nav-background-color)}
+    color: var(--nav-background-color)
+}
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px dotted rgba(0, 0, 0, 0);
@@ -38,11 +45,6 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: var(--nav-a-color);
-    color: #333;
     text-align: var(--text-align);
 }
 
@@ -51,8 +53,25 @@ aside img {
     height: auto
 }
 
+aside h2 {
+    position: absolute;
+    top: 405px;
+    left: 110px;
+
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: var(--text-align);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000
 }
