@@ -20,7 +20,7 @@ nav {
 nav a {
     color: var(--nav-a-color);
     display: block;
-    padding: 20px;
+    padding: 5px;
 }
 
 h1 {
