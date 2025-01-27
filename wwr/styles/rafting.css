@@ -14,16 +14,17 @@ html {
 main {
     max-width: 1200px;
 }
+
 h1 {
     color: var(--primary-color);
     font-family: "Merriweather", serif;
-  font-weight: 400;
+    font-weight: 400;
 }
 
 h2 {
     color: var(--primary-color);
     font-family: "Merriweather", serif;
-  font-weight: 400;
+    font-weight: 400;
 }
 
 
@@ -38,10 +39,10 @@ p {
 }
 
 
-.hero div{
-   position: relative;
-
+/* .hero div {
+    position: relative;
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -79,6 +80,48 @@ p {
 }
 
 .hero article img {
+    float: right;
+    margin: 1rem;
+    width: 25%;
+    height: auto;
+    border: 1px solid var(--accent1-color);
+} */
+
+.herodiv{
+    margin: 10px auto;
+    position: relative;
+}
+
+.herodiv img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv h1 {
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    color: var(--accent1-color);
+}
+
+.herodiv article {
+    position: absolute;
+    width: 80%;
+    top: 150px;
+    left: 90px;
+    background: var(--secondary-color);
+}
+
+.herodiv article p {
+    color: var(--accent1-color);
+    text-align: center;
+    margin: 5rem;
+}
+
+
+
+.herodiv article img {
     float: right;
     margin: 1rem;
     width: 25%;
