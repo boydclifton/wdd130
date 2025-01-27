@@ -38,55 +38,6 @@ p {
     text-decoration: none;
 }
 
-
-/* .hero div {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 220px;
-    left: 400px;
-    color: var(--accent1-color);
-
-
-}
-
-.hero article {
-    position: absolute;
-    top: 320px;
-    left: 90px;
-    max-width: 1000px;
-    background-color: var(--);
-    border: 1.5px solid var(--accent1-color);
-    width: 80%;
-    height: auto;
-    background: var(--secondary-color)
-}
-
-.hero article p {
-    color: var(--accent1-color);
-    text-align: center;
-    margin: 1rem;
-
-
-
-}
-
-.hero article img {
-    float: right;
-    margin: 1rem;
-    width: 25%;
-    height: auto;
-    border: 1px solid var(--accent1-color);
-} */
-
 .herodiv{
     margin: 10px auto;
     position: relative;
