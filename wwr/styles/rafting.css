@@ -11,9 +11,23 @@ html {
 }
 
 
-main {
-    max-width: 1200px;
+
+nav {
+    background-color: #bbb193 ;
+
 }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    flex: 1 1 100%;
+}
+
 
 h1 {
     color: var(--primary-color);
