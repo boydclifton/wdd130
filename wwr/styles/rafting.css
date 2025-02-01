@@ -88,10 +88,13 @@ p {
 }
 
 .herodiv h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    
     grid-column: 1;
     grid-row: 1;
-    margin-bottom: 20rem;
-    margin-left: 27rem;
+    margin-bottom: 23rem;
+    margin-left: 21rem;
     margin-right: 30rem;
 
     
