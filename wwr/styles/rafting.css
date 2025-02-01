@@ -11,21 +11,40 @@ html {
 }
 
 
-
-nav {
-    background-color: #bbb193 ;
-
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+header {
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: 1.2fr 3fr;
     align-items: center;
+    padding: 1rem;
+
 }
 
-nav li {
-    flex: 1 1 100%;
+header img {
+    width: 150px;
+    height: auto;
+}
+
+
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+
+}
+
+.links li {
+    flex: 1 1 auto;
+}
+
+.links a {
+    display: block;
+    color: var(--secondary-color);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 
@@ -33,13 +52,10 @@ h1 {
     color: var(--primary-color);
     font-family: "Merriweather", serif;
     font-weight: 400;
+    text-align: center;
 }
 
-h2 {
-    color: var(--primary-color);
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-}
+
 
 
 p {
@@ -52,7 +68,7 @@ p {
     text-decoration: none;
 }
 
-.herodiv{
+.herodiv {
     margin: 10px auto;
     position: relative;
 }
@@ -66,7 +82,7 @@ p {
 .herodiv h1 {
     position: absolute;
     top: 50px;
-    left: 550px;
+    left: 400px;
     color: var(--accent1-color);
 }
 
@@ -92,4 +108,99 @@ p {
     width: 25%;
     height: auto;
     border: 1px solid var(--accent1-color);
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    align-items: center;
+    max-width: 1200px
+}
+
+.p1 {
+    grid-column: 1;
+
+
+}
+
+.p2 {
+    grid-column: 3/5
+}
+
+.history img {
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+    margin: 1rem
+}
+
+.history h2 {
+    grid-column: 2;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+
+
+
+.Adventure {
+    display: grid;
+
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: .1rem;
+    max-width: 1200px;
+}
+
+
+
+.Adventure h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1;
+    grid-column: 1;
+    color: var(--primary-color);
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    grid-row: 2;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.Adventure img {
+    width: 100px;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid black;
+    padding: .2rem
+}
+
+.sociallinks {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around
+}
+
+footer img {
+    width: 70px;
+
+}
+
+footer p {
+    display: flex;
+    align-items: center;
 }
