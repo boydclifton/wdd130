@@ -119,7 +119,7 @@ p {
     width: 80%;
     height: auto;
     color: black;
-    text-align: space-around;
+    
     margin: 4rem;
     text-align: center;
     
@@ -213,14 +213,16 @@ p {
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    border: 1px solid black;
-    padding: .2rem
+    border-top: 1px solid black;
+    padding: .2rem;
+    margin-bottom: 3rem;
 
 }
 .sociallinks {
     grid-column: 2;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-top: .5rem;
 
 
 
