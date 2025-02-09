@@ -61,6 +61,7 @@ h2 {
     align-items: center;
     max-width: 900px;
     margin-bottom: 3rem;
+    max-width: 1000px;
 }
 
 
@@ -72,6 +73,7 @@ h2 {
     grid-row: 1;
     margin: auto;
     margin-bottom: 4rem;
+    align-items: center;
 
 }
 
@@ -80,8 +82,13 @@ h2 {
 .map {
     grid-column: 2;
     grid-row: 1;
+    margin-left: 3rem;
 
 
+}
+
+.map iframe {
+    width: 350px;
 }
 
 .figure {
