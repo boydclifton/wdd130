@@ -438,8 +438,7 @@ footer p {
 }
 
 .calltoaction a {
-    text-align: center;
-    align-self: center;
+    text-align: center;    align-self: center;
 
     color: rgb(255, 255, 255);
     padding: 7px;
@@ -525,3 +524,55 @@ td {
 td {
     text-align: center;
 }
+
+.mainhero {
+    grid-template-columns: 1/12;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    display: grid;
+    margin-bottom: 3rem;
+
+}
+
+.heroimg {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1;
+    grid-column: 1/12;
+    grid-row: 1;
+    align-items: center;
+    display: grid
+
+}
+
+.heroimg img {
+    grid-column: 1/12;
+    object-fit: cover;
+}
+
+.herotitle 
+{
+    position: relative;
+    right: 657px;
+    bottom: 90px;
+    display: grid;
+    width: 900px;
+}
+.herotitle h1 {
+    font-size: 6rem;
+    color: white;
+    font-family: Merriweather; 
+    font-weight: 700;
+    background-color: rgba(2, 1, 22, 0.2);
+    border: 0;
+    border-radius: 0.5rem;
+    
+    
+
+    
+}
+
+.form {
+    display: grid;
+
+}
+
